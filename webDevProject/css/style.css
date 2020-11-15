@@ -1,0 +1,196 @@
+body {
+  margin: 0px;
+  background: #fff;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 18px;
+}
+
+#logo-img {
+  /*background-color: red;*/
+  background: url('https://mosonsgroup.in/home/images/mosons.png') no-repeat;
+  background-size: contain;
+  height: 45px;
+  width: 150px;
+  display: inline-block;
+}
+
+.navbar {
+  width: 100%;
+  /*margin: 0 auto;*/
+}
+
+header {
+  background-color: #FF742A;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*...To show navigation bar color...*/
+header::after {
+  content: ''; /*adding fake content in header to immitate navbar */
+  display: flex; /* fore reference -> https://www.w3schools.com/cssref/playit.asp?filename=playcss_display */
+  clear: both;
+  height: 0px;
+  /*margin: 0px;
+  padding: 0px;*/
+}
+
+.logo {
+  height: 40px;
+  display: inline-block;
+  float: left;
+  padding: 10px 0px 10px 60px; /*top right bottom left*/
+  vertical-align: middle;
+}
+
+.nav-links { /* the box containing all the links */
+  float: right;
+  list-style: none;
+  margin: 0px;
+  padding: 10px; /*top right bottom left*/
+
+}
+
+nav li { /*<li> under <nav> in any precendance - ITEMS UNDER NAV-LINKS*/
+  display: inline-block;
+  padding: 10px 25px 10px 25px; /*top right bottom left*/
+}
+
+nav a {
+  text-decoration: none;
+  
+  font-size: 18px;
+  color: white;
+}
+
+nav li:hover {
+  background-color: black;
+}
+
+.companyName {
+  text-align: center;
+  font-size: 24px;
+  color: #FF742A;
+  background-color: rgba(0,0,0,0.8);
+  position: sticky;
+  top: 63px;
+  box-sizing: border-box;
+}
+
+
+section:nth-child(odd) {
+  background: rgba(253, 217, 200, 0.5);
+}
+
+#about-us-pic {
+  background: url("../photos/about-us1.svg") no-repeat;
+  background-size: contain;
+}
+
+#about-us h2 {
+  text-align: left;
+}
+#our-channels h2 {
+  text-align: right;
+}
+#our-brands h2 {
+  margin: auto; /*top right bottom left*/
+  display: block;
+  padding: 10px 10px 10px 10px;
+  width: 50%;
+  text-align: center;
+  /*border: solid;*/
+}
+
+.text-content {
+  width: 70%;
+  height: 200px;
+  display: inline-block;
+  /*background-color: red;*/
+  
+}
+
+.graphic-content {
+  height: 200px;
+  width: 30%;
+  display: inline-block;
+}
+.right {
+  float: right;
+  /*align-content: right;*/
+}
+
+.left {
+  display: inline-block;
+}
+
+#channels-pic {
+  background: url("../photos/d1.jpg") no-repeat;
+  background-color: pink;
+  /*background-image: "../photos/d1.jpg";*/
+  background-size: 100% 100%;
+  /*background-size: contain;*/
+  
+}
+
+#brands-container {
+  margin: auto;
+  width: 50%;
+  /*border: 3px solid green;*/
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+#unibic-brand {
+  background: url('https://www.unibicfoods.com/images/logo.png') no-repeat;
+  height: 60px;
+  width: 130px;
+  background-size: contain;
+  display: inline-block;
+  /*align-content: left;*/
+}
+
+#beevis-brand {
+  background: url('https://www.beevisfoods.com/wp-content/uploads/2020/11/Beevis-logo-for-website-01.png') no-repeat;
+  height: 60px;
+  width: 130px;
+  background-size: contain;
+  display: inline-block;
+  /*align-content: left;*/
+
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+}
+
+.developer-rights {
+  font-size: 10px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.developer-rights a {
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.sm-links-container {
+  float: right;
+  list-style: none;
+  margin: 0px;
+  padding: 10px; /*top right bottom left*/
+}
+
+.sm-links-container > li {
+  display: inline-block;
+  padding: 5px;
+}
+
+
+/*https://www.armadadistribution.com/channels/*/
